@@ -1,3 +1,40 @@
 body {
     background-color: pink;
 }
+img {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+    height: 400px;
+    width: 400px;
+
+    
+}
+.pictureOfMe {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pictureOfDino {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+}
+.container {
+    align-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+
+}
