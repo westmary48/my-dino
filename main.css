@@ -30,11 +30,18 @@ img {
     align-content: space-between;
     display: flex;
     flex-wrap: nowrap;
-
 }
 
 p {
     display: flex;
     justify-content: center;
+}
 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
 }
